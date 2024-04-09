@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background: #f4f2ec url("./images/fundo.png") repeat-x;
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+main,
+.footer{
+    width: 1080px;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+#navbar-header .li-container{
+    list-style: none;
+    display: flex;
+}
+
+#navbar-header .li-content{
+    padding: 1rem;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}
+
+#navbar-header a, 
+#navbar-header a:link, 
+#navbar-header a:visited{
+    text-decoration: none;
+    color: #af670a;
+    padding-bottom: 3px;
+}
+
+#navbar-header a:hover{
+	color: #227115;
+    border-bottom: 1px solid #535858;
+}
+
+.conteudo{
+	width: 710px;
+    float: left;
+}
+
+.postagens{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.video,
+.mapa,
+.exposicoes,
+.historia{
+    width: 310px;
+    height: 221px;
+    margin: 1rem 0rem;
+}
+
+h3{
+    color: #227115;
+	font-size: 1.0em;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+
+.exposicoes ul{
+    list-style: square;
+    padding: 0rem 2rem;
+    color: #af670a;
+}
+
+.exposicoes ul li:hover{
+    cursor: pointer;
+	color: #227115;
+}
+
+.historia p{
+    margin-bottom: 0.5rem;
+}
+
+.historia a{
+    color: #af670a;
+    text-decoration: none;
+    font-size: 110%;
+}
+
+.historia a:hover{
+    color: #227115;
+}
+
+aside{
+    float: right;
+	width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+#depoimento,
+#visita{
+    margin-bottom: 1rem;
+}
+
+#visita{
+    background: #cdc8b1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+input {
+	height: 20px;
+	width: 80px;
+	font-size: 1em;
+    border:1px solid #ada484;
+}
+
+button {
+	background: #9b9271;
+	color: white;
+	width: 200px;
+	height: 40px;
+	font-size: 1.2em;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    padding: 2rem;
+	background: url("./images/fundo-rodape.png") no-repeat center top;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+}
+
+footer li{
+    padding: 0rem 1rem;
+}
+
+footer li a{
+    text-decoration: none;
+    color: #af670a;
+}
+
+footer li a:hover{
+    color: #227115;
+}

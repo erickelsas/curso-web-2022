@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+header{
+    background: #f7b600;
+    padding: 1rem;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+header,
+.navbar{
+    padding: 0.825rem;
+}
+
+.logo-text{
+    color: #4e4e4e;
+    font-size: 2.5rem;
+}
+
+.branco{
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+header a:link, header a:visited{
+    padding: 0.5rem 0.625rem;
+    color: #fff;
+}
+
+header a:hover{
+    background: #fff;
+    color: #f7b600
+}
+
+.menu-content{
+    font-weight: 600;
+    display: inline;
+    padding: 10px;
+    margin: auto;
+}
+
+main{
+    width: 920px;
+    margin: auto;
+}
+
+.noticias,
+.vertical-container{
+    background: #fff;
+    padding: 1rem;
+}
+
+img{
+    width: 620px;
+    height: auto;
+}
+
+.noticias{
+    width: 660px;
+    margin: 1.25rem 1.25rem 1.25rem 0rem;
+    float: left;
+}
+
+.post-title{
+    color: #f7b600;
+    font-size: 1.5rem;
+}
+
+.post-desc{
+    font-size: 0.8rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.625rem;
+    margin-bottom: 0.625rem;
+    display: block;
+}
+
+.noticias p{
+    margin-top: 0.625rem;
+    padding: 0.625rem;
+}
+
+.menu-vertical{
+    width: 240px;
+    float: right;
+    margin: 1.25rem 0;
+}
+
+.categorias{
+    margin-top: 1.25rem;
+}
+
+.menu-vertical h3{
+    color: #565656;
+    background: #ccc;
+    padding: 0.25rem;;
+}
+.vertical-container{
+    padding: 0.625rem;
+}
+
+.vertical-container p, .vertical-container a{
+    font-size: 0.8rem;
+}
+
+hr:last-child{
+    display: none;
+}
+
+main a:link, main a:visited{
+    color: #f7b600;
+}
+
+main a:hover{
+    text-decoration: underline;
+}
+
+.clear{
+    clear: both;
+}
+
+footer{
+    text-align: center;
+    padding: 1rem;
+    background-color: #ccc;
+}

@@ -1,0 +1,35 @@
+body{
+    display: flex;
+
+    flex-direction: column;
+    background: #d2d2c1 url(images/fundo.png);
+    font: 1rem Arial, Helvetica, sans-serif;
+    width: 900px;
+}
+
+nav{
+    padding: 1rem 1rem;
+    background-color: #c5c5b2;
+}
+
+nav a{
+    color: #4b566a;
+    text-decoration: none;
+}
+
+main{
+    background-color: #e8e8d9;
+    padding: 0.825rem;
+}
+main h2{
+    font-size: 1.25rem;
+    color: gray;
+}
+
+.img-campanha{
+    border: 10px solid #c3c3ae;
+}
+footer h2{
+    font-size: 1rem;
+    text-align: center; 
+}
